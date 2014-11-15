@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "FlockPlane1",
+  "short_name": "FlockPlane1",
+  "description": "Description for FlockPlane1",
+  "sockets": {
+    "udp": {
+          "bind": "*"
+    }
+  },
+  "version": "0.0.1.0",
+  "permissions": [
+   "system.network"
+  ],
+  "icons": {
+    "16": "assets/icon_16.png",
+    "128": "assets/icon_128.png"
+  },
+
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  }
+}
